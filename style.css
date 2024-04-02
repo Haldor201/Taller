@@ -17,6 +17,7 @@
     height: 40px;
     width: 10%;
     align-items:center;
+    justify-content: space-around;
 }
 .header a:hover{
 
@@ -26,4 +27,5 @@
     height: 40px;
     width: 10%;
     text-decoration: none;
+    justify-content: space-around;
 }
