@@ -15,7 +15,7 @@
   .brand-title {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
-    color: #f0db4f; /* A nice yellow shade */
+    color: #f0db4f; 
   }
   
   .navbar-links ul {
@@ -36,7 +36,7 @@
   }
   
   .navbar-links li a:hover {
-    color: #f0db4f; /* Same yellow shade for hover state */
+    color: #f0db4f; 
   }
   
   .toggle-button {
@@ -79,8 +79,7 @@
       display: flex;
     }
   }
-  
-  /* Styles when navbar-links is active */
+
   .navbar-links.active {
     display: flex;
   }
