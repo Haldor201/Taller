@@ -1,0 +1,26 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Crear una instancia de la clase Ejemplo
+        Ejemplo miEjemplo = new Ejemplo();
+
+        // Llamar al método Saludar de la instancia
+        miEjemplo.Saludar();
+
+        // Pausar la consola para ver la salida
+        Console.ReadLine();
+    }
+}
+
+// Definir una clase llamada Ejemplo
+class Ejemplo
+{
+    // Método de la clase que imprime un saludo
+    public void Saludar()
+    {
+        Console.WriteLine("¡Hola, este es un ejemplo en C#!");
+    }
+}
